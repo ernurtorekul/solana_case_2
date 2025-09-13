@@ -1,10 +1,8 @@
 {
-  "/scan/page": "app/scan/page.js",
-  "/profile/[address]/page": "app/profile/[address]/page.js",
-  "/certificate/[id]/page": "app/certificate/[id]/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/page": "app/page.js",
-  "/properties/page": "app/properties/page.js",
+  "/issuer/page": "app/issuer/page.js",
   "/verify/page": "app/verify/page.js",
-  "/issuers/page": "app/issuers/page.js"
+  "/page": "app/page.js",
+  "/issuers/page": "app/issuers/page.js",
+  "/scan/page": "app/scan/page.js",
+  "/profile/[address]/page": "app/profile/[address]/page.js"
 }

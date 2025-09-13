@@ -186,7 +186,7 @@ export default function DashboardPage() {
               : 'text-slate-600 hover:text-slate-900'
           }`}
         >
-          My Certificates
+          Education
         </button>
         <button
           onClick={() => setActiveTab('properties')}
@@ -197,6 +197,16 @@ export default function DashboardPage() {
           }`}
         >
           Real Estate
+        </button>
+        <button
+          onClick={() => setActiveTab('properties')}
+          className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+            activeTab === 'properties'
+              ? 'bg-white text-slate-900 shadow-sm'
+              : 'text-slate-600 hover:text-slate-900'
+          }`}
+        >
+          Health
         </button>
       </div>
 

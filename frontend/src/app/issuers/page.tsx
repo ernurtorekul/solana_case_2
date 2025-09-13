@@ -104,7 +104,7 @@ export default function IssuersPage() {
     <div className="space-y-8">
       {/* Header */}
       <div className="text-center">
-        <h1 className="text-3xl font-bold text-slate-900">Authorized Certificate Issuers</h1>
+        <h1 className="text-3xl font-bold text-slate-900">Authorized Oraganization Issuers</h1>
         <p className="text-slate-600 mt-2">
           Trusted institutions verified to issue blockchain certificates in Kazakhstan
         </p>
