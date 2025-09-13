@@ -1,0 +1,9 @@
+{
+  "/issuer/page": "app/issuer/page.js",
+  "/scan/page": "app/scan/page.js",
+  "/profile/[address]/page": "app/profile/[address]/page.js",
+  "/certificate/[id]/page": "app/certificate/[id]/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/properties/page": "app/properties/page.js"
+}
