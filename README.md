@@ -81,7 +81,6 @@
 ### 🌐 Access the Application
 - **Frontend**: http://localhost:3000
 - **Backend API**: http://localhost:3001
-- **API Health**: http://localhost:3001/health
 
 ## 📚 API Endpoints
 
@@ -102,56 +101,15 @@
 ### User Dashboard
 - `GET /api/user/dashboard/:wallet` - Complete user dashboard data
 
-## 🎮 Demo Usage
 
 ### 1. Connect Wallet
 - Open http://localhost:3000
 - Click "Connect Wallet" (uses demo wallet if Phantom not available)
 
-### 2. Issue Certificate (Issuer Role)
-- Navigate to "Issuer" page
-- Fill certificate details:
-  - Student wallet: `Student111111111111111111111111111111`
-  - Student name: `Aidar Nazarbayev`
-  - Course: `Blockchain Development`
-  - Issuer: `Nazarbayev University`
-- Click "Mint Certificate"
-
-### 3. Verify Certificates
-- Navigate to "Verify" page
-- Enter wallet address to verify: `Student111111111111111111111111111111`
-- View verified certificates with full details
-
-### 4. Real Estate Investment
-- Navigate to "Properties" page (or click "Browse Properties" from Dashboard)
-- Select a property (e.g., "Almaty Towers - Unit 205")
-- Choose number of tokens to purchase
-- Complete purchase transaction
-- View holdings in Dashboard
-- Claim monthly rent distribution
-
-### 5. Dashboard Overview
-- Navigate to "Dashboard" page
-- Switch between "My Certificates" and "Real Estate" tabs
-- View portfolio statistics and monthly income
-
-## 🔧 Development Features
-
-### Mock Data & Demo Mode
-- Pre-loaded demo certificates and properties
-- Simulated blockchain transactions for hackathon demo
-- Mock wallet addresses for testing verification
-- IPFS placeholder URLs for metadata
-
 ### Wallet Integration
 - Phantom wallet support
 - Fallback demo wallet for testing
 - Persistent wallet connection state
-
-### Responsive Design
-- Mobile-first Tailwind CSS design
-- Accessible components with proper ARIA labels
-- Toast notifications for user feedback
 
 ## 🏗 Architecture Highlights
 
@@ -189,81 +147,23 @@
 
 ## 🌟 Key Features Demonstrated
 
-### ✅ Education Certificates
+### Education Certificates
 - [x] NFT-based certificate minting
 - [x] IPFS metadata storage
 - [x] Issuer authorization system
 - [x] Instant verification without issuer contact
 - [x] Tamper-proof credential storage
 
-### ✅ Real Estate Tokenization
+### Real Estate Tokenization
 - [x] Property fractional ownership
 - [x] SPL token-based shares
 - [x] Automated rent distribution simulation
 - [x] Portfolio tracking and management
 - [x] Real-time ownership percentages
 
-### ✅ Platform Features
+### Platform Features
 - [x] Multi-role user interface (Citizen/Issuer/Verifier)
 - [x] Responsive web design
 - [x] Wallet integration (Phantom)
 - [x] Real-time transaction feedback
 - [x] IPFS integration for decentralized storage
-
-## 🎯 Future Enhancements
-
-### Phase 2 Features
-- [ ] Integration with Solflare and other wallets
-- [ ] Real Anchor program deployment
-- [ ] Secondary market for property tokens
-- [ ] Advanced certificate templates
-- [ ] Multi-language support (Kazakh/Russian/English)
-
-### Kazakhstan Integration
-- [ ] Egov API integration
-- [ ] Kaspi Pay integration
-- [ ] KYC/AML compliance
-- [ ] Government issuer verification
-- [ ] Real property data sources
-
-### Advanced Features
-- [ ] DAO governance for platform decisions
-- [ ] Staking rewards for long-term holders
-- [ ] Cross-chain bridge to other blockchains
-- [ ] Mobile app (React Native)
-- [ ] Advanced analytics dashboard
-
-## 🤝 Contributing
-
-This is a hackathon project, but contributions are welcome:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- **Solana Foundation** for the robust blockchain infrastructure
-- **Anchor Framework** for simplified Solana program development
-- **Phantom Wallet** for seamless wallet integration
-- **IPFS/Pinata** for decentralized metadata storage
-- **Kazakhstan Government** for inspiring digital transformation initiatives
-
-## 📞 Contact
-
-For questions about this hackathon project:
-- Email: [your-email@example.com]
-- Telegram: [@your-username]
-- GitHub: [@your-github-username]
-
----
-
-**Built with ❤️ for Kazakhstan's Digital Future**
-
-*Empowering citizens through blockchain transparency and financial inclusion*
